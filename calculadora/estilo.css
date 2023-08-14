@@ -1,0 +1,65 @@
+/* Defina estilos para a calculadora */
+.calculadora {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+/* Estilos para o bloco de calculadora */
+.calculator-container {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Estilos para a área de exibição */
+.display {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: right; /* Alinhar o texto à direita no visor */
+    right: 100%;
+}
+
+/* Estilos para os botões */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.botao {
+    width: 60px; /* Largura dos botões */
+    height: 60px; /* Altura dos botões */
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+    border-radius: 5px;
+}
+div {
+    text-align: center;
+    font: Arial 15pt normal;
+}
+.botao:hover{
+    background-color: black;
+}
+/* Estilos para o botão "=" */
+.igual-button {
+    width: 100%;
+    grid-column: span 0; /* Faz o botão ocupar 2 colunas no grid */
+    
+}
